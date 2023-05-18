@@ -36,9 +36,9 @@
 
 
 ## Overview
-### 1. 두 참여자가 각각의 customers 테이블을 갖고 있고,
-### 2. party2(consumer)가 party1(provider)로부터 join 하여 column add 하여 조회하고 싶다
-### 3. 단 party1은 접근 통제 정책(query, column)을 사전에 설정하여 소유한 Data의 security 확보
+#### 1. 두 참여자가 각각의 customers 테이블을 갖고 있고,
+#### 2. party2(consumer)가 party1(provider)로부터 join 하여 column add 하여 조회하고 싶다
+#### 3. 단 party1은 접근 통제 정책(query, column)을 사전에 설정하여 소유한 Data의 security 확보
 ![image](https://user-images.githubusercontent.com/52474199/220887464-eb1de5ea-1d57-4b20-a3ba-e6324ba73c70.png)
 
 ![image](https://user-images.githubusercontent.com/52474199/221126990-e69a3cdc-3927-4db2-a8ea-ebf9e880da12.png)
