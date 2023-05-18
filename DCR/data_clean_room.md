@@ -1,9 +1,9 @@
 # DCR 이란?
 
 ## 1. OVERVIEW
-1. ‘데이터 클린룸(Data Clean Room; DCR)’이란 데이터 세트를 물리적으로 교환하거나 개인식별정보(PII), IP 식별자 또는 기타 유형의 사용자 개인정보 보호를 손상시키지 않고 여러 데이터 소스를 공유할 수 있는 안전하고 중립적인 환경을 말함 ([참고](https://www.ciokorea.com/t/2996/%EB%B9%85%20%EB%8D%B0%EC%9D%B4%ED%84%B0/277891#csidxee702383fe360faa07c3adf4b4cdc9c))
+1. ‘데이터 클린룸(Data Clean Room; DCR)’이란 데이터 세트를 물리적으로 교환하지 않고, 사용자 개인정보 보호를 손상없이 여러 데이터 소스를 공유할 수 있는 안전하고 중립적인 환경을 말함 ([참고](https://www.ciokorea.com/t/2996/%EB%B9%85%20%EB%8D%B0%EC%9D%B4%ED%84%B0/277891#csidxee702383fe360faa07c3adf4b4cdc9c))
 2. 두 개 이상의 조직에서 Snowflake DCR을 활용하여 기본 데이터를 복사, 이동 또는 공유하지 않고 데이터를 결합하고 고성능 및 확장성으로 대량의 데이터에 대한 분석을 수행 가능
-3. First Party에 Data가 있고, 이 Data를 Private하게 Multi-Party에서 결합하고 Access하고 싶은 경우에 적용 가능
+3. 즉, First Party에 Data가 있고, 이 Data를 Private하게 Multi-Party에서 결합하고 Access하고 싶은 경우에 적용 가능
 
 ### 1-1. Data Clean Room이 필요한 이유
 1. 기업들은 사용자 프라이버시를 침해하지 않으면서 데이터를 수집, 공유, 분석할 수 있는 대안을 찾아야 하고 데이터 클린룸과 같은 개인정보 보호 솔루션이 중요한 역할을 할 수 있음
