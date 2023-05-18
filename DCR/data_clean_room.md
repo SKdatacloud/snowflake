@@ -22,18 +22,15 @@
 3. 승인된 DCR 쿼리 요청이 실행되는 방식
 
 ## 3. 활용 사례
-#### 1. 3rd Party 쿠키 또는 집계 Data를 활용하지 않고 직접 Access하여 first party Data를 더 쉽게 연결, 활용할 수 있는 사례
-#### 2. 소매업체와 CPG(consumer packaged goods:포장소비재)
-     A. 해당 소매업체는 고객이 무엇을, 얼마나, 자주 구매하는지 인사이트를 활용할 수 있으며, 
-     B. 이러한 인사이트를 CPG 브랜드와 공유할 수 있다. 
+#### 1. Google Ads Data Hub 통해 광고주는 집계된 구글 데이터 세트를 사용하여 미디어를 효과적으로 이해하도록 캠페인 분석을 맞춤화
+#### 2. AWS에서는 광고주는 광고(Amazon Advertising) 이벤트에서 제공하는 집계된 데이터 세트와 자사의 데이터 세트를 매치시키고 분석할 수 있음
 #### 3. 기대효과
-     A. 브랜드는 Targeting 효율을 높이고, 적절한 청중에 도달하며, 광고 낭비를 줄일 수 있다. 
-     B. 소매업체는 수익을 개선하고, 향상된 고객 경험을 제공할 수 있다
+     A. 브랜드는 Targeting 효율을 높이고, 적절한 청중에 Focusing해서, 광고 낭비를 줄일 수 있음
+     B. 소매업체는 수익을 개선하고, 향상된 고객 경험을 제공할 수 있음
 
 ## 4. Prequisition
 1. 2개의 Snowflake 계정 (Provider, Consumer)
 2. Edition : Enterprise & CSP : AWS
-
 
 ## Overview
 #### 1. 두 참여자가 각각의 customers 테이블을 갖고 있고,
