@@ -55,11 +55,11 @@ select SYSTEM$AUTHORIZE_PRIVATELINK ( '<aws_id>' , '<federated_token>' );
 ![image](https://user-images.githubusercontent.com/52474199/172308669-6a3d8b5f-a95f-477c-8fe1-0c8ac937df39.png)
 
 ```
-"privatelink-account-name":"ab25370.ap-northeast-2.privatelink",
-"privatelink-vpce-id":"com.amazonaws.vpce.ap-northeast-2.vpce-svc-0870e889ef8b7b491",
-"privatelink-account-url":"ab25370.ap-northeast-2.privatelink.snowflakecomputing.com",
-"regionless-privatelink-account-url":"atixoaj-smilegate.privatelink.snowflakecomputing.com",
-"privatelink_ocsp-url":"ocsp.ab25370.ap-northeast-2.privatelink.snowflakecomputing.com",
+"privatelink-account-name":"ab*****.ap-northeast-2.privatelink",
+"privatelink-vpce-id":"com.amazonaws.vpce.ap-northeast-2.vpce-svc-*************b7b491",
+"privatelink-account-url":"ab*****.ap-northeast-2.privatelink.snowflakecomputing.com",
+"regionless-privatelink-account-url":"atixoaj-smile****.privatelink.snowflakecomputing.com",
+"privatelink_ocsp-url":"ocsp.ab*****.ap-northeast-2.privatelink.snowflakecomputing.com",
 "privatelink-connection-urls":"[]"
 
 ```
