@@ -4,7 +4,8 @@
 1. smilegate 는 VPC Endpoint로 구성되어 있음
 > SQL 수행시 알 수 없는(?) Error 발생
 
-![image](https://user-images.githubusercontent.com/52474199/172679835-cc7e2a10-f758-4ec7-a1cc-f0108d7cde3c.png)
+![image](https://github.com/SKdatacloud/snowflake/assets/111560602/d3c67568-1590-48fb-9788-25143b33ade7)
+
 
 2. Snowflake에서 Query 실행시, 초기 Result Set은 정상 Return
 3. Result Set을 Scroll Down 하여 다음 Record를 조회하는 경우 Internal Error 발생
