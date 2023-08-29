@@ -42,9 +42,9 @@ The second option is to configure a PrivateLink connection to the internal stage
 This is something that requires a change in your VPC, similar to the change when PrivateLink was initially configured. 
 Complete instructions on how to configure this are in the link below:
 ```
-### 무슨 말이냐면,
+### 정리하면,
 ```
-1. S3 URL을 방화벽/Proxy 등록 (방화벽은 사이트 특성상 불가)
+1. S3 URL을 방화벽/Proxy 등록 (사이트 정책상 방화벽을 URL 패턴으로 등록하는 것이 불가함)
 2. Internal stage 와 PrivateLink 구성
 ```
 
