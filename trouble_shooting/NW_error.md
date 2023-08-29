@@ -52,12 +52,11 @@ Complete instructions on how to configure this are in the link below:
 ## 3. 해결책
 
 ### Step 1. Proxy Server 사용 (성공)
-> Port Forwarding(443, 80)으로 사용자 PC <-> Proxy <-> VPC Endpoint <-> S3로 Network 연결
-
-> Local 환경 구성의 복잡도 증가 및 IP 변경 등에 따른 NW Error 발생시 원인 파악 어려움(운영 Risk 증가)
+* Port Forwarding(443, 80)으로 사용자 PC <-> Proxy <-> VPC Endpoint <-> S3로 Network 연결
+* Local 환경 구성의 복잡도 증가 및 IP 변경 등에 따른 NW Error 발생시 원인 파악 어려움(운영 Risk 증가)
 
 ### Step 2. Internal Stage와 PrivateLink 구성 (성공)
-> Internal Stage와 VPC Endpoint 구성
-> 상세 구성 방법
+* Internal Stage와 VPC Endpoint 구성
+* 상세 구성 방법
 
 https://community.snowflake.com/s/article/HOW-TO-configure-private-connectivity-to-aws-internal-stages
